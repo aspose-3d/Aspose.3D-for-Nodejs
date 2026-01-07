@@ -2,7 +2,7 @@
 // ExStart:ConvertTorusPrimitivetoMesh
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize object by Torus class
 var convertible = new aspose.threed.Torus();

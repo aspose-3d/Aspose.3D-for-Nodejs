@@ -2,7 +2,7 @@
 // ExStart:Discreet3DSOption
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var loadOpts = new aspose.threed.Discreet3dsLoadOptions();
 
@@ -21,7 +21,7 @@ loadOpts.setGammaCorrectedColor(true);
 // ExStart:ObjLoadOption
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var loadObjOpts  = new aspose.threed.ObjLoadOptions();
 
@@ -37,7 +37,7 @@ loadObjOpts.setFlipCoordinateSystem(true);
 // ExStart:STLLoadOption
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize an object
 var loadSTLOpts = new aspose.threed.StlLoadOptions();
@@ -51,7 +51,7 @@ loadSTLOpts.setFlipCoordinateSystem(true);
 // ExStart:U3DLoadOption
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize an object
 var loadU3DOpts = new aspose.threed.U3dLoadOptions();
@@ -65,7 +65,7 @@ loadU3DOpts.setFlipCoordinateSystem(true);
 // ExStart:glTFLoadOptions
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Set load options
 var loadOpt = new aspose.threed.GltfLoadOptions();
@@ -79,7 +79,7 @@ loadOpt.setFlipTexCoordV(true);
 // ExStart:PlyLoadOptions
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // initialize Scene class object
 var scene = new aspose.threed.Scene();
@@ -99,7 +99,7 @@ scene.open("vase-v2.ply", loadPLYOpts);
 // ExStart:XLoadOptions
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // initialize Scene class object
 var scene = new aspose.threed.Scene();
@@ -119,7 +119,7 @@ scene.open("warrior.x", loadXOpts);
 //ExStart: FBXLoadOptions
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 //This will output all properties defined in GlobalSettings in FBX file.
 var opt = new aspose.threed.FbxLoadOptions();

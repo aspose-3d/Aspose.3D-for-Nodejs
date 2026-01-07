@@ -2,7 +2,7 @@
 // ExStart:CreateEmpty3DDocument
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var file="document.obj";
 

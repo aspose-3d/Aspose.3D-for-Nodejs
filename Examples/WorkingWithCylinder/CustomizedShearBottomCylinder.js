@@ -2,7 +2,7 @@
 // ExStart:1
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Create a scene
 var scene = new aspose.threed.Scene();

@@ -2,7 +2,7 @@
 // ExStart:ConvertPlanePrimitivetoMesh
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize object by Plane class
 var convertible = new aspose.threed.Plane();

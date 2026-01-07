@@ -2,7 +2,7 @@
 // ExStart:Triangulate3DMesh
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var mesh= new aspose.threed.Cylinder().toMesh();
 

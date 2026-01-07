@@ -2,7 +2,7 @@
 // ExStart:PerformingLinearExtrusion
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize the base shape to be extruded
 // Initialize the base profile to be extruded

@@ -19,7 +19,7 @@
   "license": "End User License Agreement.html",
   "dependencies": {
     "java": "0.12.1",
-    "aspose.3d":"24.7.0"
+    "aspose.3d":"26.1.0"
   },
   "directories": {
     "lib": "lib"

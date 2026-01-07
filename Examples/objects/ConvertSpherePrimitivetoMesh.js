@@ -2,7 +2,7 @@
 // ExStart:ConvertSpherePrimitivetoMesh
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize object by Sphere class
 var convertible = new aspose.threed.Sphere();

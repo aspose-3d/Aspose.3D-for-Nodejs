@@ -22,7 +22,7 @@ Aspose.3D for Node.js via Java is an extensible and feature rich API that integr
 ``` js
 
 var aspose = aspose || {};
-aspose.threed = require("aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var scene = new aspose.threed.Scene();
 
@@ -36,7 +36,7 @@ scene.save("out.stl");
 ``` js
 var aspose = aspose || {};
 
-aspose.threed = require("./lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 var scene = new aspose.threed.Scene();
 
@@ -50,7 +50,7 @@ scene.save("ChangePlaneOrientation.obj");
 ``` js
 var aspose = aspose || {};
 
-aspose.threed = require("./lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Create a scene
 var scene = new aspose.threed.Scene();
@@ -79,7 +79,7 @@ scene.save("CustomizedOffsetTopCylinder.obj");
 ``` js
 var aspose = aspose || {};
 
-aspose.threed = require("./lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
  // initialize a scene
 var scene = new aspose.threed.Scene();

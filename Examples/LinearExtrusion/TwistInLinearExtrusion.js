@@ -2,7 +2,7 @@
  // ExStart:TwistInLinearExtrusion
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize the base profile to be extruded
 var profile=new aspose.threed.RectangleShape();

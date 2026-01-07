@@ -2,7 +2,7 @@
 // ExStart:ConvertBoxPrimitivetoMesh
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize object by Box class
 var convertible = new aspose.threed.Box();

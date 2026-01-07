@@ -2,7 +2,7 @@
   // ExStart:AddAssetInformationToScene
 var aspose = aspose || {};
 
-aspose.threed = require("../../lib/aspose.threed");
+aspose.threed = require("aspose.3d");
 
 // Initialize a 3D scene
 var scene = new aspose.threed.Scene();
